@@ -21,4 +21,4 @@ const parseMetaRefresh = content =>
 
 
 
-module.exports = parseMetaRefresh;
+export { parseMetaRefresh };

@@ -1,7 +1,8 @@
 "use strict";
+require = require("esm")(module/*, options*/);
 const {expect} = require("chai");
 const {it} = require("mocha");
-const parseMetaRefresh = require("./");
+const {parseMetaRefresh} = require("./");
 
 
 
