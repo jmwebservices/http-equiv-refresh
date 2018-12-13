@@ -18,6 +18,7 @@
   },
   "scripts": {
     "babel": "babel dist --out-dir dist",
+    "build": "npm-run-all rollup babel",
     "rollup": "rollup -c",
     "test": "mocha test.js --reporter=spec --check-leaks --bail"
   },
