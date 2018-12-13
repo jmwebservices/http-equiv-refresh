@@ -13,6 +13,7 @@
     "node": ">= 6"
   },
   "scripts": {
+    "rollup": "rollup -c",
     "test": "mocha test.js --reporter=spec --check-leaks --bail"
   },
   "files": [
