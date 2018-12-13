@@ -6,6 +6,10 @@
   "author": "Steven Vachon <contact@svachon.com> (https://www.svachon.com/)",
   "repository": "stevenvachon/http-equiv-refresh",
   "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "chai": "^4.0.2",
     "mocha": "^3.4.2"
   },
@@ -13,6 +17,7 @@
     "node": ">= 6"
   },
   "scripts": {
+    "babel": "babel dist --out-dir dist",
     "rollup": "rollup -c",
     "test": "mocha test.js --reporter=spec --check-leaks --bail"
   },
