@@ -18,7 +18,8 @@
   },
   "scripts": {
     "babel": "babel dist --out-dir dist",
-    "build": "npm-run-all rollup babel",
+    "build": "npm-run-all rollup babel move",
+    "move": "move-cli dist/parseMetaRefresh.js ../BSI/modules/metaRefresh/parse/parse.js",
     "rollup": "rollup -c",
     "test": "mocha test.js --reporter=spec --check-leaks --bail"
   },
